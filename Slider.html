@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <header>
+        <div class="slide">
+            <img class="imagem" src="capa.jpg" id="img-1">
+            <img class="imagem" src="capa-2.jpg" id="img-2">
+            <img class="imagem" src="capa-3.jpg" id="img-3">
+        </div>
+        <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+        </div>
+    </header>
+    <nav id="main">
+        <ul>
+            <li class="logo"><a href="#">Leitura</a> </li>
+            <li><a href="#">Home</a> </li>
+            <li><a href="#">Sobre</a> </li>
+            <li><a href="#">Imagens</a> </li>
+            <li><a href="#local">Localização</a> </li>
+            <li><a href="#">Maps</a> </li>
+        </ul>
+    </nav>
+    <div class="site-wrap">
+        <p>Há quem diga que não gosta de ler e há quem é apaixonado por 
+            Livros, mas em uma coisa todos devem concordar: os benefícios em 
+            cultivar o hábito da leitura são inúmeros.
+        </p>
+        <img src="img-1.jpg" class="align-left slide-in">
+        <p>Quem lê tem a possibilidade de viajar para inúmeros lugares e 
+            viver em mundos diferentes, o que permite aprendizados e 
+            reflexões profundas.
+        </p>
+        <img src="img-2.jpg" class="align-right slide-in">
+        <p>Lorem10</p>
+    </div>
+    <div id="local" class="site-wrap">
+        <h2>Localização</h2>
+    </div>
+    <script src="slider.js"></script>
+</body>
+
+</html>
